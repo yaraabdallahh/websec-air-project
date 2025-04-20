@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to bottom right, #d0e7ff, #ffffff);
+    font-family: 'Nunito', sans-serif;
+    color: #003366;
+    margin: 0;
+}
+
+.hero {
+    background-image: url("https://source.unsplash.com/1600x500/?airplane,sky,travel");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 51, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.container {
+    padding: 60px 80px;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.login-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #004d99;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+blockquote {
+    font-style: italic;
+    color: #003366aa;
+    border-left: 4px solid #004d99;
+    padding-left: 12px;
+    margin-top: 20px;
+}
